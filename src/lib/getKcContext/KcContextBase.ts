@@ -322,8 +322,8 @@ export declare namespace KcContextBase {
         totp: {
             totpSecretEncoded: string;
             qrUrl: string;
+            supportedApplications: string[];
             policy: {
-                supportedApplications: string[];
                 algorithm: "HmacSHA1" | "HmacSHA256" | "HmacSHA512";
                 digits: number;
                 lookAheadWindow: number;

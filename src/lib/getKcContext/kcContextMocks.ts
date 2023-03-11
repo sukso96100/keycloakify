@@ -457,8 +457,8 @@ export const kcContextMocks: KcContextBase[] = [
             manualUrl: "#",
             totpSecret: "G4nsI8lQagRMUchH8jEG",
             otpCredentials: [],
+            supportedApplications: ["totpAppMicrosoftAuthenticatorName", "totpAppFreeOTPName", "totpAppGoogleName"],
             policy: {
-                supportedApplications: ["FreeOTP", "Google Authenticator"],
                 algorithm: "HmacSHA1",
                 digits: 6,
                 lookAheadWindow: 1,
